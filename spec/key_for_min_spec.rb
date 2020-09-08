@@ -57,7 +57,7 @@ describe "smallest hash value" do
   end
 
   it "returns nil for an empty hash" do
-    expect(key_for_min_value({})).to eq(:blake)
+    expect(key_for_min_value({})).to eq(nil)
   end
 
 end
